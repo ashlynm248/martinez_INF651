@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Fortune Teller</title>
+</head>
+<header>
+    <ul>
+     <nav>
+      <li><a href="index.html">About</a></li>
+      <li><a href="fortune.html">Fortune Teller</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </nav>
+    </ul>
+</header>
+</script>
+<!--breaks allow more room to be between the different objects/text-->
+</body>
+<br>
+<br>
+<br>
+  <h1> Find Your Fortune</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img class="left" img src="questionmark.jpg" alt="Question" style="width:200px;height:200px;">
+
+<img class="right" img src="yesorno.jpg" alt="No/Yes" style="width:200px;height:200px;">
+
+<div class="container">
+  <h3 class="center-align">Ask Your Question...</h3>
+<div class="center">
+  <label for="userInput"></label>
+    <input type="text" id="userInput" class="validate" placeholder="Enter Question Here">
+      <button onclick="addQuestion()" id="submitButton" type="button">Click To Receive Fortune</button>
+</div>
+<script>
+  const button = 
+  document.querySelector('button');
+   button.addEventListener('click',
+   () => {
+       button.style.backgroundColor = 
+        "purple";
+   }); 
+</script>
+<h5>Questions Asked</h5>
+  <ul id="quelist" class="collection">
+  </ul>
+</div>
+</div>
+  <script src="main.js"></script>
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <small>
+      <i>Copyright @ 2024 Fortune Teller</i>
+  </small>
+</footer>
